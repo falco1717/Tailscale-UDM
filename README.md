@@ -4,7 +4,7 @@ Install Tailscale on UDM Pro
 
 # Install the latest version of Tailscale UDM  
 ```
-curl -sSLq https://raw.github.com/SierraSoftworks/tailscale-udm/main/install.sh | sh
+curl -sSLq https://github.com/falco1717/Tailscale-UDM/raw/refs/heads/main/install.sh | sh
 ```
 Add Tailscale's GPG key
 ```
