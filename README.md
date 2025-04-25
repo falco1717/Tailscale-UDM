@@ -34,6 +34,10 @@ FLAGS="--state=/data/tailscale/tailscaled.state --socket=/var/run/tailscale/tail
 
 EOF
 ```
+# restart Tailscale
+```
+systemctl restart tailscaled
+```
 # Start Tailscale
 ```
 sudo tailscale up --advertise-routes="<your-local-subnet-cidr>" --snat-subnet-routes=false --accept-routes --reset
